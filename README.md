@@ -1,19 +1,13 @@
 Htmldom
 =======
 
-A Htmldom package for Laravel 4 and 5 based on Simple HTML Dom Parser
+A Htmldom package for Laravel 4 and 5 and 6 based on Simple HTML Dom Parser
 
 ## Installation
 
 Add the following line to the `require` section of `composer.json`:
 
-```json
-{
-    "require": {
-        "yangqi/htmldom": "1.0.*"
-    }
-}
-```
+composer require kalimeromk/update-htmldom
 
 ## Laravel 5 Setup (same as Laravel 4)
 
@@ -52,3 +46,4 @@ foreach($html->find('a') as $element)
 
 See the detailed documentation http://simplehtmldom.sourceforge.net/manual.htm
 
+s
