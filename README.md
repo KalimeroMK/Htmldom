@@ -16,7 +16,7 @@ composer require kalimeromk/update-htmldom
 ```php
 'providers' => array(
     ...
-	'Yangqi\Htmldom\HtmldomServiceProvider',
+	'Htmldom\HtmldomServiceProvider',
     ...
 ```
 2. Add alias to `config/app.php`.
@@ -24,7 +24,7 @@ composer require kalimeromk/update-htmldom
 ```php
 'aliases' => array(	
     ...
-	'Htmldom' => 'Yangqi\Htmldom\Htmldom',
+	'Htmldom' => 'Htmldom\Htmldom',
     ...
 ```
 
