@@ -9,7 +9,7 @@ Add the following line to the `require` section of `composer.json`:
 
 composer require kalimeromk/update-htmldom
 
-## Laravel 5 Setup (same as Laravel 4)
+## Laravel 5 Setup
 
 1. Add the service provider to `config/app.php`.
 
@@ -19,6 +19,7 @@ composer require kalimeromk/update-htmldom
 	'Htmldom\HtmldomServiceProvider',
     ...
 ```
+
 2. Add alias to `config/app.php`.
 
 ```php
@@ -37,11 +38,11 @@ $html = new \Htmldom('http://www.example.com');
 
 // Find all images 
 foreach($html->find('img') as $element) 
-       echo $element->src . '<br>';
+       {echo $element->src . '<br>';}
 
 // Find all links 
 foreach($html->find('a') as $element) 
-       echo $element->href . '<br>';
+       {echo $element->href . '<br>';}
 ```
 
 See the detailed documentation http://simplehtmldom.sourceforge.net/manual.htm
