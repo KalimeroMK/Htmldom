@@ -1,7 +1,7 @@
 Htmldom
 =======
 
-A Htmldom package for Laravel 4 and 5 and 6 based on Simple HTML Dom Parser
+A Htmldom package for Laravel 5 to 9 based on Simple HTML Dom Parser
 
 ## Installation
 
