@@ -1,7 +1,7 @@
 {
     "name": "kalimeromk/update-htmldom",
     "type": "library",
-    "description": "Simple Html Dom Parser for Laravel 6",
+    "description": "Simple Html Dom Parser for Laravel",
     "keywords": ["laravel", "html parser"],
     "license": "MIT",
     "authors": [
@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^7.3|^7.4|^8.0|^8.1",
+        "ext-iconv": "*"
     },
     "autoload": {
         "psr-0": {
